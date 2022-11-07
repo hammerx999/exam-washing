@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957369659333",
+    "project_id": "exam-dudee",
+    "storage_bucket": "exam-dudee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957369659333:android:ada2886c764a4b41ea65ac",
+        "android_client_info": {
+          "package_name": "com.example.exam_dudee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957369659333-qqqih7g1s69ftahpj5rpb5auohlpld4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkj3TfbRD4f6qiveblDUcerKtpDJwwG8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957369659333-qqqih7g1s69ftahpj5rpb5auohlpld4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
