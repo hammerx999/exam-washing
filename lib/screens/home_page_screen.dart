@@ -79,15 +79,12 @@ class _HomePageScreenState extends State<HomePageScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        " What's new today ?",
-                        style: TextStyle(
-                          fontFamily: 'fonts1',
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold,
-                          color: Color.fromARGB(255, 74, 214, 233),
-                        ),
-                      ),
+                      Text(" What's new today ?",
+                          style: TextStyle(
+                              fontFamily: 'fonts1',
+                              fontSize: 30,
+                              fontWeight: FontWeight.bold,
+                              color: Color.fromARGB(255, 35, 68, 81))),
                       Container(
                           padding: EdgeInsets.all(12),
                           width: double.infinity,

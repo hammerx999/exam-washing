@@ -3,6 +3,7 @@ import 'package:exam_dudee/screens/home_page_screen.dart';
 import 'package:exam_dudee/screens/notification_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:path/path.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
@@ -26,15 +27,10 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       _selectedIndex = index;
       index == 1
-          ? showDialog(
-              context: context,
-              builder: (c) => AlertDialog(
-                    content: Row(children: [
-                        Icon(Icons.touch_app,size: 30,),
-                      Text('Tap Icon to Information', style: TextStyle(fontFamily: 'fonts1',fontWeight: FontWeight.bold),),
-                    
-                    ]),
-                  ))
+          ? Get.snackbar('trick', 'Tap Icon to Information',
+              colorText: (Color.fromARGB(255, 22, 56, 61)),
+             
+              snackPosition: SnackPosition.TOP)
           : null;
     });
   }

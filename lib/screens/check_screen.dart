@@ -70,7 +70,7 @@ class _CheckScreenState extends State<CheckScreen> {
                                 fit: BoxFit.cover,
                               ),
                               borderRadius: BorderRadius.circular(10),
-                              color: Color.fromARGB(255, 113, 170, 161)),
+                              color: Color.fromARGB(255, 104, 186, 201)),
                           height: 100,
                           width: 90,
                           child: Column(
